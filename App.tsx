@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 //import { Logo } from './components/Logo';
 import { User, UserRole } from './types';
+//import { login, getCurrentUser, logout, findUserByIdentifier, updateUser, getUsers } from './services/authService';
 import { login, getCurrentUser, logout, findUserByIdentifier, updateUser, getUsers } from './services/authService';
 import RegisterForm from './components/RegisterForm';
 import ClientDashboard from './components/ClientDashboard';
